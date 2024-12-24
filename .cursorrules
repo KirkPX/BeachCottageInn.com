@@ -1,4 +1,6 @@
 Cursor Rules:
 - don't edit the site or folder structure unles I give you explicit instructions to do so
 - assume that the site is being deployed to a github pages site and that it must be compatible with github pages so that it is visible on the web (and if you find yourself doing something that would break that, let me know)
-- when you are expli
+- when editing references, always ensure that references are observant of the site structure and that they are not broken by the changes you are making
+- when trying to deploy fixes, download a sample page from the site (https://kirkpx.github.io/BeachCottageInn.com/) and compare it to the sample page to ensure that the changes you are making are correct and that they are not breaking the site
+- links to external domains don't need to be updated unless I give you explicit instructions to do so
