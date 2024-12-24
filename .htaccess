@@ -16,16 +16,24 @@ RewriteRule ^(.*)/$ /$1 [L,R=301]
 
 # Redirect legacy files to root
 RewriteRule ^lindsays-files/(.*)$ / [R=301,L]
-RewriteRule ^gallery/(.*)$ / [R=301,L]
 RewriteRule ^photos-page-thumbs/(.*)$ / [R=301,L]
 RewriteRule ^.*_orig\.html$ / [R=301,L]
 RewriteRule ^.*_14-.*\.html$ / [R=301,L]
 
-# Redirect old specific pages to their current versions
-RewriteRule ^gallery/beach-cottage-inn/.*$ /rates-and-rooms.html [R=301,L]
-RewriteRule ^gallery/beach-house-suites/.*$ /oceanfront-apartment-rental.html [R=301,L]
-RewriteRule ^gallery/midcoast-maine/.*$ /what-to-see-and-do.html [R=301,L]
-RewriteRule ^gallery/aerial-photos-maine-vacation/.*$ /what-to-see-and-do.html [R=301,L]
+# Gallery redirects - specific pages first
+RewriteRule ^gallery/beach-cottage-inn/images/(.*)$ /images/$1 [R=301,L]
+RewriteRule ^gallery/beach-house-suites/images/(.*)$ /images/$1 [R=301,L]
+RewriteRule ^gallery/aerial-photos-maine-vacation/images/(.*)$ /images/$1 [R=301,L]
+RewriteRule ^gallery/midcoast-maine/images/(.*)$ /images/$1 [R=301,L]
+
+# Gallery redirects - main sections
+RewriteRule ^gallery/beach-cottage-inn(/.*)?$ /rates-and-rooms.html [R=301,L]
+RewriteRule ^gallery/beach-house-suites(/.*)?$ /oceanfront-apartment-rental.html [R=301,L]
+RewriteRule ^gallery/midcoast-maine(/.*)?$ /what-to-see-and-do.html [R=301,L]
+RewriteRule ^gallery/aerial-photos-maine-vacation(/.*)?$ /what-to-see-and-do.html [R=301,L]
+
+# Catch-all gallery redirect
+RewriteRule ^gallery(/.*)?$ / [R=301,L]
 
 # Prevent directory listings
 Options -Indexes
