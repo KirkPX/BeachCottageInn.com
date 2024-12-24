@@ -9,7 +9,7 @@ padding:0 auto;
 
 .container
 {
-background-image:url(/headers/bhouse-wtp-header-general.jpg);
+background-image:url(./headers/bhouse-wtp-header-general.jpg);
 background-position:top left;
 background-repeat:no-repeat;
 position:relative;
@@ -30,48 +30,48 @@ padding-top:220px;
 
 #bhouse-contact
 {
-background-image:url(/headers/bhouse-header-contact.jpg);
+background-image:url(./headers/bhouse-header-contact.jpg);
 }
 
 #bhouse-introduction
 {
-	background-image:url(/headers/bhouse-header-introduction.jpg);
+	background-image:url(./headers/bhouse-header-introduction.jpg);
 }	
 
 #bhouse-index
 {
-background-image:url(/headers/bhouse-header-index.jpg);
+background-image:url(./headers/bhouse-header-index.jpg);
 }
 
 #amenities
 {
-background-image:url(/headers/bhouse-header-amenities.jpg);
+background-image:url(./headers/bhouse-header-amenities.jpg);
 }
 
 #photos
 {
-background-image:url(/headers/bhouse-wtp-header-general.jpg);
+background-image:url(./headers/bhouse-wtp-header-general.jpg);
 }
 
 #rates
 {
-background-image:url(/headers/bhouse-header-rates.jpg);
+background-image:url(./headers/bhouse-header-rates.jpg);
 }
 
 #packages
 {
-background-image:url(/headers/bhouse-header-packages.jpg);
+background-image:url(./headers/bhouse-header-packages.jpg);
 }
 
 #reservations
 {
-background-image:url(/headers/bhouse-header-reservations.jpg);
+background-image:url(./headers/bhouse-header-reservations.jpg);
 }
 
 /* CONTENT  */
 .boxes
 {
-background-image:url(/images/background-boxes.png);
+background-image:url(./images/background-boxes.png);
 }
 
 #content
@@ -361,23 +361,23 @@ border-top:1px solid #666633;
 
 p#augusta-vacation-directions
 {
-background-image:url(/images/augusta-airport-directions.png);
+background-image:url(./images/augusta-airport-directions.png);
 }
 
 
 p#bangor-vacation-directions
 {
-background-image:url(/images/bangor-international-airport-directions.png);
+background-image:url(./images/bangor-international-airport-directions.png);
 }
 
 p#portland-vacation-directions
 {
-background-image:url(/images/portland-international-airport-directions.png);
+background-image:url(./images/portland-international-airport-directions.png);
 }
 
 p#boston-vacation-directions
 {
-background-image:url(/images/boston-logan-airport-directions-maine.png);
+background-image:url(./images/boston-logan-airport-directions-maine.png);
 }
 
 /* WINE LIST STYLES */
@@ -648,18 +648,18 @@ text-align:center;
 
 @font-face {
     font-family: 'icomoonRegular';
-    src: url('/socicon/socicon.eot');
-    src: url('/socicon/socicon.eot?#iefix') format('embedded-opentype'),
-         url('/socicon/socicon.woff2') format('woff2'),
-         url('/socicon/socicon.woff') format('woff'),
-         url('/socicon/socicon.ttf') format('truetype'),
-         url('/socicon/socicon.svg#icomoonRegular') format('svg');
+    src: url('./socicon/socicon.eot');
+    src: url('./socicon/socicon.eot?#iefix') format('embedded-opentype'),
+         url('./socicon/socicon.woff2') format('woff2'),
+         url('./socicon/socicon.woff') format('woff'),
+         url('./socicon/socicon.ttf') format('truetype'),
+         url('./socicon/socicon.svg#icomoonRegular') format('svg');
 }
  
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     @font-face {
         font-family:icomoonRegular;
-        src: url(/socicon/socicon.svg) format(svg);
+        src: url(./socicon/socicon.svg) format(svg);
     }
 }
 

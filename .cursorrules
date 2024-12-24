@@ -5,3 +5,5 @@ Cursor Rules:
 - when trying to deploy fixes, download a sample page from the site (https://kirkpx.github.io/BeachCottageInn.com/) and compare it to the sample page to ensure that the changes you are making are correct and that they are not breaking the site
 - links to external domains don't need to be updated unless I give you explicit instructions to do so
 - when modifying links or references on the site, don't assume that all references or links are consistent in their approach, instead validate where an individual reference or link is supposed to be pointing and ensure that you preserve the original intent of the reference or link
+- when moving files, always ensure that the file is moved to the correct location and that all references across the site are updated to point to the new location
+- when making changes to the site, always validate that there are no dependencies that you are inadvertently breaking when making the changes
