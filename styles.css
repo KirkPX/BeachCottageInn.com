@@ -1,0 +1,764 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+margin:10px auto 25px auto;
+padding:0 auto;
+}
+
+.container
+{
+background-image:url(/headers/bhouse-wtp-header-general.jpg);
+background-position:top left;
+background-repeat:no-repeat;
+position:relative;
+width:950px;
+left:50%;
+margin-left:-475px;
+padding-top:220px;
+}
+
+#tripadvisor
+{
+	margin-left:40px;
+}
+
+
+
+/* BEACH HOUSE HEADERS */
+
+#bhouse-contact
+{
+background-image:url(/headers/bhouse-header-contact.jpg);
+}
+
+#bhouse-introduction
+{
+	background-image:url(/headers/bhouse-header-introduction.jpg);
+}	
+
+#bhouse-index
+{
+background-image:url(/headers/bhouse-header-index.jpg);
+}
+
+#amenities
+{
+background-image:url(/headers/bhouse-header-amenities.jpg);
+}
+
+#photos
+{
+background-image:url(/headers/bhouse-wtp-header-general.jpg);
+}
+
+#rates
+{
+background-image:url(/headers/bhouse-header-rates.jpg);
+}
+
+#packages
+{
+background-image:url(/headers/bhouse-header-packages.jpg);
+}
+
+#reservations
+{
+background-image:url(/headers/bhouse-header-reservations.jpg);
+}
+
+/* CONTENT  */
+.boxes
+{
+background-image:url(/images/background-boxes.png);
+}
+
+#content
+{
+width:690px;
+padding:25px 0px 10px 0;
+float:right;
+}
+
+#content-home
+{
+width:690px;
+padding:0px 0px 10px 0;
+float:right;
+}
+
+#content a, #footer-links a
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:#660000;
+}
+
+#content p, #content-home p
+{
+margin:5px 35px 5px 35px;
+text-align:justify;
+line-height:2em;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:.9em;
+}
+
+#content p #left-indent
+{
+margin-left:55px;
+}
+
+#content h1
+{
+margin: 0 15px 0px 35px;
+padding:0;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-weight:normal;
+font-size:1.35em;
+color:#660000;
+display:inline;
+}
+
+#content h2
+{
+margin:0 0 0 35px;
+padding:0;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:#666633;
+font-size:1.05em;
+font-weight:normal
+}
+
+.floor-plan
+{
+margin:15px 10px 70px 35px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:#666633;
+font-size:1.05em;
+}
+
+.floor-plan-image
+{
+	margin-right:10px;
+	float:left;
+}
+
+.floor-plan apartment
+{
+border-bottom:1px solid #666633;
+}
+
+#content h2 a
+{
+margin:0 15px 0;
+padding:0;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-weight:normal;
+color:#666633;
+display:block;
+text-decoration:none;
+font-size:15px;
+}
+
+#image-column
+{
+float:right;
+margin: 10px 20px 0 15px;
+}
+
+#content p a
+{
+font-weight:bold;
+text-decoration:none;
+}
+
+#content p a:hover
+{
+text-decoration:underline;
+}
+
+/* NAVIGATION */
+#navigation
+{
+width: 250px;
+float:left;
+padding: 25px 0 10px 0;
+margin:0;
+font-size:1.1em;
+}
+
+#navigation ul
+{
+list-style:none;
+padding:0;
+margin:0 15px 0 20px;
+}
+
+#navigation ul li
+{
+padding:2px 0;
+}
+
+#navigation ul li a
+{
+color:#660000;
+text-decoration:none;
+font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+
+#navigation ul li a.active
+{
+font-weight:bold;
+font-size:1.2em;
+}
+
+#navigation ul li a:hover
+{
+color:#666633;
+font-weight:bold;
+}
+
+#navigation ul ul li a
+{
+color:#666633;
+}
+
+#navigation ul ul li a:hover
+{
+color:#660000;
+}
+
+#navigation-bhouse
+{
+margin:10px 0 0 15px;
+}
+
+#navigation-bhouse img, #navigation-bhouse a img
+{
+margin:0;
+padding:0;
+}
+
+
+/* PAGE SPECIFIC */
+
+td h2
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color:#666633;
+font-weight:normal;
+}
+
+/* rooms & rates STYLES */
+table.rates-table, table.american-inns-table
+{
+margin:5px 35px 10px 35px;
+padding:0;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+border:none;
+}
+
+table.rates-table tr td
+{
+margin:0;
+padding:0 0 25px 0;
+vertical-align:top;
+}	
+
+table.rates-table tr td.room-thumbs a img
+{
+	border:2px solid white;
+	margin:3px 0 0 0;
+}
+
+table.rates-table tr td.room-thumbs a:hover img
+{
+	border:2px solid #666633;
+}
+
+.room-name
+{
+width:120px !important;
+color:#333333;
+font-size:1.05em;
+color:#666633;
+}
+
+#sleeps
+{
+	color:#666;
+	font-size:.7em;
+	margin-bottom:10px;
+}
+
+#reserve-now a, #floor-plan a
+{
+color:#660000;
+font-size:.7em;
+text-decoration:none;
+}
+
+#reserve-now a:hover, #floor-plan a:hover
+{
+color:#666633;
+text-decoration:underline;
+}
+
+.room-description
+{
+font-size:.8em;
+text-align:justify;
+line-height:1.5em;
+}
+
+.room-price
+{
+width:auto !important;
+text-align:center;
+padding-right: 5px;
+padding-left:5px;
+}
+
+ul#prices
+{
+padding:0;
+margin:3px 0 0 0;
+float:left;
+font-size:.85em;
+line-height:normal;
+}
+
+ul#prices li
+{
+display:inline;
+margin:0 15px 0 0 ;
+padding:0;
+}
+
+li#high strong, li#low strong
+{
+color:#666633;
+}
+
+li#nightly strong
+{
+color:#660000;
+}
+
+/* DIRECTIONS PAGE */
+
+p.directions#bangor-vacation-directions, p.directions#portland-vacation-directions, p.directions#boston-vacation-directions, p.directions#augusta-vacation-directions
+{
+background-position:top left;
+background-repeat:no-repeat;
+display:block;
+margin:10px 35px;
+padding:10px 0 10px 300px;
+font-size:13px;
+line-height:20px;
+border-top:1px solid #666633;
+}
+
+p#augusta-vacation-directions
+{
+background-image:url(/images/augusta-airport-directions.png);
+}
+
+
+p#bangor-vacation-directions
+{
+background-image:url(/images/bangor-international-airport-directions.png);
+}
+
+p#portland-vacation-directions
+{
+background-image:url(/images/portland-international-airport-directions.png);
+}
+
+p#boston-vacation-directions
+{
+background-image:url(/images/boston-logan-airport-directions-maine.png);
+}
+
+/* WINE LIST STYLES */
+
+#wine-list
+{
+margin:0 35px;
+width:620px;
+}
+
+.wine_type
+{
+color:#666633;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size:1.05em;
+padding:10px 0 0 0;
+}
+
+.wine_name
+{
+padding:0 0 0 20px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:.9em;
+border-bottom:1px solid #666633;
+}
+
+
+tr#glass_bottle td
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:#660000;
+padding:5px 0 0 0;
+margin:0;
+text-align:center;
+}
+
+.wine_price
+{
+padding:0;
+text-align:center;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:.9em;
+}
+
+
+.wine_left
+{
+padding-right:10px;
+width:50%;
+vertical-align:top;
+border:none;
+}
+
+.wine_right
+{
+padding-left:10px;
+vertical-align:top;
+}
+
+table#wine-list td.dotted_horz
+{
+border-bottom:1px dotted #666633;
+padding:0 0 10px 0;
+text-align:center;
+}
+
+table#wine-list td.dotted_horz h2
+{
+margin:0;
+padding:0;
+}
+
+table#wine-list td
+{
+border:none;
+}
+
+/* MENU STYLES */
+
+#menu-table
+{
+margin:0 35px;
+width:620px;
+}
+
+table#menu-table td.dotted_horz
+{
+border-bottom:1px dotted #666633;
+padding:0 0 10px 0;
+text-align:center;
+}
+
+table#menu-table td.dotted_horz h2
+{
+margin:0;
+vertical-align:top;
+}
+
+table#menu-table tr.food-items td
+{
+font-size:.9em;
+}
+
+table#menu-table td
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+border:none;
+padding:0;
+margin:0;
+}
+
+/* PHOTOS PAGE STYLES */
+
+.photo-thumb
+{
+margin:10px;
+border:3px solid white;
+padding:0;
+}
+
+.photo-thumb-vert
+{
+margin:10px 7px;
+border:3px solid white;
+padding:0;
+
+}
+
+.photo
+{
+padding:0;
+margin:0;
+text-align:center;
+}
+
+/* TO DO PAGE */
+#to-do-page a
+{
+	margin-left:75px;
+	float:right;
+}
+
+#to-do-page p
+{
+	margin-bottom:10px;
+}
+
+#to-do-page em
+{
+	color:#666;
+}
+
+p.indent
+{
+	padding-left:20px;
+}
+
+/* AMERICAN INNS PAGE */
+.american-inns
+{
+	display:block;
+	margin:5px 35px 5px 35px;
+	text-align:justify;
+	line-height:2em;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:.9em;
+}
+
+.american-inns img
+{
+	margin:10px 10px 10px 0px;
+}
+
+.american-inns-links
+{
+	display:block;
+	margin:5px 35px 5px 35px;
+	text-align:center;
+	line-height:2em;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:.9em;
+}
+
+h2.american-inns
+{
+	display:block;
+	clear:both;
+	margin:10px 0;
+}
+
+table.american-inns-table tr td img
+{
+	float:left;
+	margin:10px 10px 10px 0;
+}
+
+
+/* FOOTER */
+#footer
+{
+width:700px;
+float:right;
+font-family:Geneva, Arial, Helvetica, sans-serif;
+font-weight:bold;
+font-size:.8em;
+margin-top:7px;
+text-align:center;
+}
+
+#footer-links
+{
+width:690px;
+padding:3px 0px;
+margin-top:5px;
+float:right;
+text-align:center;
+font-size:.9em;
+}
+
+#footer-links p a, #footer-links p
+{
+margin:0 10px;
+padding:0;
+line-height:2em;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:.9em;
+text-decoration:none;
+}
+
+p#ben-magro
+{
+display:block;
+text-align:right;
+font-size:8px;
+clear:both;
+color:#999;
+vertical-align:top;
+}
+
+#call-or-email
+{
+color:#660000;
+display:inline;
+}
+
+#footer-title
+{
+color:#a4a274;
+display:inline;
+margin: 0 3px 0 15px;
+}
+
+#footer-phone, #footer-email a, #footer-email
+{
+display:inline;
+color:#666633;
+text-decoration:none;
+}
+
+/* SOCIAL ICONS */
+ul.share
+{
+color:#666633 !important;
+font-family:Geneva, Arial, Helvetica, sans-serif;
+font-size:.7em;
+text-align:center;
+}
+
+@font-face {
+    font-family: 'icomoonRegular';
+    src: url('/socicon/socicon.eot');
+    src: url('/socicon/socicon.eot?#iefix') format('embedded-opentype'),
+         url('/socicon/socicon.woff2') format('woff2'),
+         url('/socicon/socicon.woff') format('woff'),
+         url('/socicon/socicon.ttf') format('truetype'),
+         url('/socicon/socicon.svg#icomoonRegular') format('svg');
+}
+ 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:icomoonRegular;
+        src: url(/socicon/socicon.svg) format(svg);
+    }
+}
+
+.soc {
+    overflow:hidden;
+    margin:0; padding:0;
+    list-style:none;
+}
+
+.soc li {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+}
+
+.soc li a {
+    font-family:icomoonRegular !important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    margin-right: 1px;
+    color: #ffffff !important;
+    background-color: none;
+}
+
+.soc a:hover {
+    z-index: 2;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.soc-icon-last{
+    margin:0 !important;
+}
+
+.soc-tripadvisor {
+    background-color: #000000;
+    color:
+}
+.soc-tripadvisor:before {
+    content:'3';
+}
+.soc-facebook {
+    background-color: #3e5b98;
+}
+.soc-facebook:before {
+    content:'b';
+}
+.soc-google {
+    background-color: #d93e2d;
+}
+.soc-google:before {
+    content:'c';
+}
+.soc-twitter {
+    background-color: #4da7de;
+}
+.soc-twitter:before {
+    content:'a';
+}
+.soc-pinterest {
+    background-color: #c92619;
+}
+.soc-pinterest:before {
+    content:'d';
+}
+.soc-linkedin {
+    background-color: #3371b7;
+}
+.soc-linkedin:before {
+    content:'j';
+}

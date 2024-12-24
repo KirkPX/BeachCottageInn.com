@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!doctype html public "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="{$txt_content_direction}">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset={$txt_charset}" />
+    <title>{$txt_guestbook_script}</title>
+        
+    <style type="text/css">
+    <!--
+        @import url("{$script_url}template/default/style.css");
+    -->
+    </style>
+    
+    
+    
+  </head>
+  <body>
+    
+  <!-- Language selection (link list or dropdown menu) -->
+  {include file='default/language.tpl.html'}
+    
+
+    {foreach from=$system_messages item=item}
+    <div class="g10e_system">
+      <div class="g10e_index">{$item.title}</div>
+      <div class="g10e_code"><br />{$item.message}</div>
+    </div>
+    {/foreach}
+
+    {foreach from=$error_messages item=item}
+    <div class="g10e_system">
+      <div class="g10e_index">{$item.title}</div>
+      <div class="g10e_code"><br />{$item.message}</div>
+    </div>
+    {/foreach}
+    
+    {call_module trigger="frontend_page_header"}
+  
+  
+    {include file=$detail_template}    
+    
+    
+    {call_module trigger="frontend_page_footer"}
+    
+    
+    
+    
+    {foreach from=$debug_messages item=item}
+    <div class="g10e_system">
+      <div class="g10e_index">{$item.title}</div>
+      <div class="g10e_code"><br />{$item.message}</div>
+    </div>
+    {/foreach}
+  </body>  
+</html>

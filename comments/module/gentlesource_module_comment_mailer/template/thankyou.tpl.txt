@@ -1,0 +1,1 @@
+{$txt_thank_you_text}

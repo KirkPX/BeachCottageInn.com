@@ -1,0 +1,96 @@
+  <h3>{$txt_guestbook_entry}</h3>
+    
+  
+    <div class="g10e_link_button">
+      <a href="./commentlistall.php">{$txt_guestbook_entries}</a>        
+    </div>
+   
+   
+    
+    
+    {if $show_form == "yes"}
+
+        <form {$form.attributes}>
+          <table class="g10e_comment_form_table">
+
+            <tr>
+              <td colspan="2" class="g10e_error_message">
+                {foreach from=$message item=item}
+                  <div class="g10e_error_message_item">{$item}</div>
+                {/foreach}              
+              </td>
+            </tr>
+            
+            <tr>
+              <td class="g10e_comment_form_label">{$form.name.label}</td>
+              <td class="g10e_comment_form_field">
+                {if $form.name.error} <span class="g10e_error_message">{$form.name.error}</span> <br />{/if}
+                {$form.name.html}
+              </td>
+            </tr>
+
+            <tr>
+              <td class="g10e_comment_form_label">
+                {$form.email.label}
+              </td>
+              <td class="g10e_comment_form_field">
+                {if $form.email.error} <span class="g10e_error_message">{$form.email.error}</span> <br />{/if}
+                {$form.email.html}
+              </td>
+            </tr>
+
+            <tr>
+              <td class="g10e_comment_form_label">{$form.homepage.label}</td>
+              <td class="g10e_comment_form_field">
+                {$form.homepage.html}
+              </td>
+            </tr>
+
+            <tr>
+              <td class="g10e_comment_form_label">{$form.city.label}</td>
+              <td class="g10e_comment_form_field">
+                {$form.city.html}
+              </td>
+            </tr>
+
+            <tr>
+              <td class="g10e_comment_form_label">{$form.state.label}</td>
+              <td class="g10e_comment_form_field">
+                {$form.state.html}
+              </td>
+            </tr>
+
+            <tr>
+              <td class="g10e_comment_form_label">{$form.country.label}</td>
+              <td class="g10e_comment_form_field">
+                {$form.country.html}
+              </td>
+            </tr>
+
+            <tr>
+              <td></td>
+              <td class="g10e_comment_form_field">
+                {call_module trigger="backend_textarea" form="form" field=$comment_field_name}             
+              </td>
+            </tr>
+
+            <tr>
+              <td class="g10e_comment_form_label">
+                {$form.$comment_field_name.label}
+              </td>
+              <td class="g10e_comment_form_field">
+                {if $form.$comment_field_name.error} <span class="g10e_error_message">{$form.$comment_field_name.error}</span> <br />{/if}
+                {$form.$comment_field_name.html}                
+              </td>
+            </tr>
+
+            <tr>
+              <td class="g10e_comment_form_label"></td>
+              <td class="g10e_comment_form_submit">{$form.save.html}</td>
+            </tr>
+
+          </table>
+
+        </form>
+
+    {/if}

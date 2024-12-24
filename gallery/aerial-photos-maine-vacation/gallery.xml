@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gallery cellDimension="850" columns="4" zoomOutPerc="18" zoomInPerc="90" frameWidth="8" frameColor="0xFFFFFF" captionColor="0xFFFFFF" enableRightClickOpen="true" >
+
+<image>
+   <url>images/use-back-button.png</url>
+   <caption><![CDATA[<a href="index.html">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/navigate-instructions.png</url>
+   <caption><![CDATA[<a href="index.html">HOME</a>]]></caption>
+</image>
+
+
+
+<image>
+   <url>images/lincolnville-beach-aerial-view.jpg</url>
+   <caption><![CDATA[<a href="index.html">HOME</a>]]></caption>
+</image>
+
+<image>
+   <url>images/areal-1.jpg</url>
+   <caption><![CDATA[<a href="index.html">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/areal-2.jpg</url>
+   <caption><![CDATA[<a href="index.html">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/areal-3.jpg</url>
+   <caption><![CDATA[<a href="index.html">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/areal-4.jpg</url>
+   <caption><![CDATA[<a href="index.html">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/areal-5.jpg</url>
+   <caption><![CDATA[<a href="index.html">HOME</a>]]></caption>
+</image>

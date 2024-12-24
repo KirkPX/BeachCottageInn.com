@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gallery cellDimension="875" columns="5" zoomOutPerc="15" zoomInPerc="90" frameWidth="10" frameColor="0xFFFFFF" captionColor="0xFFFFFF" enableRightClickOpen="true" >
+
+<image>
+   <url>images/use-back-button.png</url>
+   <caption><![CDATA[<a href="index.html">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/navigate-instructions.png</url>
+   <caption><![CDATA[<a href="index.html">HOME</a>]]></caption>
+</image>
+
+
+<image>
+   <url>images/breezemere-park-concerts.jpg</url>
+   <caption><![CDATA[<a href="index.html">HOME</a>]]></caption>  
+</image>
+<image>
+   <url>images/camden-maine-olad-windjammers-sailing.jpg</url>
+   <caption><![CDATA[<a href="index.html">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/camden.jpg</url>
+   <caption><![CDATA[<a href="index.html">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/dinghies-pier-boating.jpg</url>
+   <caption><![CDATA[<a href="index.html">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/ferry-islesboro-daytrips.jpg</url>
+   <caption><![CDATA[<a href="index.html">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/kids-sailing-lincolnville-boat-club.jpg</url>
+   <caption><![CDATA[<a href="index.html">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/maine-moose-sighting.jpg</url>
+   <caption><![CDATA[<a href="index.html">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/norton-pond-sailing-lincolnville-center.jpg</url>
+   <caption><![CDATA[<a href="index.html">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/ocean-views-oceanfront-property.jpg</url>
+   <caption><![CDATA[<a href="index.html">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/outdoor-activities-fishing.jpg</url>
+   <caption><![CDATA[<a href="index.html">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/schooner.jpg</url>
+   <caption><![CDATA[<a href="index.html">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/sunrises-over-beach-lobster-boats.jpg</url>
+   <caption><![CDATA[<a href="index.html">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/windjammer-sailing-sandy-beach.jpg</url>
+   <caption><![CDATA[<a href="index.html">HOME</a>]]></caption>
+</image>
+</gallery>

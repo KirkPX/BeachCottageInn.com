@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gallery cellDimension="1000" columns="5" zoomOutPerc="20" zoomInPerc="100" frameWidth="20" frameColor="0xFFFFFF" captionColor="0xFFFFFF" enableRightClickOpen="true" >
+
+<image>
+   <url>images/use-back-button.png</url>
+   <caption><![CDATA[<a href="../../rates-and-rooms.html#beachhouse">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/navigate-instructions.png</url>
+   <caption><![CDATA[<a href="../../rates-and-rooms.html#beachhouse">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/beach-house-cottage-beddings.jpg</url>
+   <caption><![CDATA[<a href="../../rates-and-rooms.html#beachhouse">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/beach-house-front-view.jpg</url>
+   <caption><![CDATA[<a href="../../rates-and-rooms.html#beachhouse">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/beach-house-interior-view.jpg</url>
+   <caption><![CDATA[<a href="../../rates-and-rooms.html#beachhouse">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/beach-house-secretary.jpg</url>
+   <caption><![CDATA[<a href="../../rates-and-rooms.html#beachhouse">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/bedroom-oceanfront-cottage.jpg</url>
+   <caption><![CDATA[<a href="../../rates-and-rooms.html#beachhouse">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/living-room-families-couples.jpg</url>
+   <caption><![CDATA[<a href="../../rates-and-rooms.html#beachhouse">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/sitting-room-pullout-sofa.jpg</url>
+   <caption><![CDATA[<a href="../../rates-and-rooms.html#beachhouse">HOME</a>]]></caption>
+</image>
+
+
+
+<image>
+   <url>images/ocean-view-upper-deck.jpg</url>
+   <caption><![CDATA[<a href="../../rates-and-rooms.html#beachhouse">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/twin-beds-lower-deck.jpg</url>
+   <caption><![CDATA[<a href="../../rates-and-rooms.html#beachhouse">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/queen-bed-lower-deck.jpg</url>
+   <caption><![CDATA[<a href="../../rates-and-rooms.html#beachhouse">HOME</a>]]></caption>
+</image>
+
+<image>
+   <url>images/fireplace-lower-deck.jpg</url>
+   <caption><![CDATA[<a href="../../rates-and-rooms.html#beachhouse">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/apple-kitchen-table.jpg</url>
+   <caption><![CDATA[<a href="../../rates-and-rooms.html#beachhouse">HOME</a>]]></caption>
+</image>
+
+
+
+
+
+
+</gallery>

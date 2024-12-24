@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gallery cellDimension="1000" columns="5" zoomOutPerc="20" zoomInPerc="100" frameWidth="20" frameColor="0xFFFFFF" captionColor="0xFFFFFF" enableRightClickOpen="true" >
+
+<image>
+   <url>images/use-back-button.png</url>
+   <caption><![CDATA[<a href="photos-beach-house.html#beachcottage">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/navigate-instructions.png</url>
+   <caption><![CDATA[<a href="photos-beach-house.html#beachcottage">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/fall-foliage-beach-cottage-inn.jpg</url>
+   <caption><![CDATA[<a href="../../rates-and-rooms.html#beachcottage">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/oceanview-decks.jpg</url>
+   <caption><![CDATA[<a href="../../rates-and-rooms.html#beachcottage">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/timberwind.jpg</url>
+   <caption><![CDATA[<a href="../../rates-and-rooms.html#beachcottage">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/bowdoin.jpg</url>
+   <caption><![CDATA[<a href="../../rates-and-rooms.html#beachcottage">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/rocking-chair-ocean.jpg</url>
+   <caption><![CDATA[<a href="../../rates-and-rooms.html#beachcottage">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/appledore.jpg</url>
+   <caption><![CDATA[<a href="../../rates-and-rooms.html#beachcottage">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/timberwind-kitchen.jpg</url>
+   <caption><![CDATA[<a href="../../rates-and-rooms.html#beachcottage">HOME</a>]]></caption>
+</image>
+<image>
+   <url>images/bowdoin-kitchen.jpg</url>
+   <caption><![CDATA[<a href="../../rates-and-rooms.html#beachcottage">HOME</a>]]></caption>
+</image>
+
+</gallery>
