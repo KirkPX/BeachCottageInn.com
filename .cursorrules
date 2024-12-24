@@ -1,3 +1,4 @@
 Cursor Rules:
 - don't edit the site or folder structure unles I give you explicit instructions to do so
 - assume that the site is being deployed to a github pages site and that it must be compatible with github pages so that it is visible on the web (and if you find yourself doing something that would break that, let me know)
+- when you are expli
