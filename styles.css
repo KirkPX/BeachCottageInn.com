@@ -94,13 +94,29 @@ font-family:Verdana, Arial, Helvetica, sans-serif;
 color:#660000;
 }
 
-#content p, #content-home p
-{
-margin:5px 35px 5px 35px;
-text-align:justify;
-line-height:2em;
-font-family:Verdana, Arial, Helvetica, sans-serif;
-font-size:.9em;
+/* Base paragraph styles */
+p {
+    display: block;
+    margin: 5px 35px;
+    text-align: justify;
+    line-height: 2em;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: .9em;
+}
+
+/* Room description specific styles */
+.room-description p {
+    line-height: 1.7em;
+    font-size: 1em;
+    margin: 0;
+    padding: 0 5px;
+    margin-bottom: 10px;
+}
+
+/* Rate notes specific styles */
+.rate-notes p {
+    margin: 10px 35px;
+    line-height: 1.6em;
 }
 
 #content p #left-indent
@@ -128,6 +144,8 @@ color:#666633;
 font-size:1.05em;
 font-weight:normal
 }
+
+
 
 .floor-plan
 {
@@ -231,12 +249,22 @@ color:#660000;
 #navigation-bhouse
 {
 margin:10px 0 0 15px;
+font-size:0;
 }
 
-#navigation-bhouse img, #navigation-bhouse a img
+#navigation-bhouse a
+{
+display:inline-block;
+font-size:16px;
+vertical-align:top;
+}
+
+#navigation-bhouse img,
+#navigation-bhouse a img
 {
 margin:0;
 padding:0;
+display:block;
 }
 
 
@@ -605,6 +633,7 @@ line-height:2em;
 font-family:Verdana, Arial, Helvetica, sans-serif;
 font-size:.9em;
 text-decoration:none;
+display:inline-block;
 }
 
 p#ben-magro
@@ -620,6 +649,7 @@ color:#999;
 {
 color:#660000;
 display:inline;
+vertical-align:middle;
 }
 
 #footer-title
@@ -846,26 +876,182 @@ text-align:center;
     font-family: Arial, sans-serif;
 }
 
-.book-now-button {
+/* Clean up event section styling */
+.seasonal-events h1 {
+    color: #47632A;
+    border-bottom: 2px solid #8B4513;
+    font-family: erdana, Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.seasonal-events h2 {
+    color: #36C;  /* Royal blue color */
+    font-family: Georgia, serif;
+    font-size: 1.6em;
+    margin: 30px 0 20px 0;
+    font-weight: normal;
+}
+
+.event-container {
+    position: relative;
+    margin: 15px 0;
+    padding-left: 10px;
+}
+
+.event-container::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background-color: #36C;
+}
+
+.month-label {
+    background: #8B4513;
+    color: white;
+    padding: 3px 8px;
     display: inline-block;
-    padding: 10px 30px;
-    background-color: #666633;
-    color: #fff;
-    text-decoration: none;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    border-radius: 3px;
-    transition: background-color 0.3s ease;
+    margin-right: 15px;
 }
 
-.book-now-button:hover {
-    background-color: #7a7a3d;
+.event-title {
+    color: #8B1A1A;
     text-decoration: none;
+    float: right;
+    font-size: 1em;
 }
 
-.book-now-container {
+/* Headers */
+h2 {
+    color: #47632A;
+    font-family: erdana, Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    margin: 30px 0 20px 0;
+    padding: 0 0 5px 0;
+}
+
+h3 {
+    font-family: erdana, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+/* Tables */
+.events-table,
+.activities-table,
+.indoor-table {
+    width: calc(100% - 70px);  /* Account for left and right margins (35px each) */
+    margin: 15px 35px;
+    border-collapse: collapse;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: .9em;
+}
+
+.events-table td,
+.activities-table td,
+.indoor-table td {
+    padding: 12px 0;
+    vertical-align: top;
+    line-height: 1.5em;
+}
+
+/* Month column */
+.month {
+    background: #BDBDAB;  /* Just one shade darker than the site's olive green (#666633) */
+    color: #660000;
+    padding: 8px 12px;
+    width: 100px;
     text-align: center;
-    margin: 30px 0;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.1);
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* Description column */
+.description {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    color: #333;
+}
+
+/* Link column */
+.event-link,
+.activity-link {
+    width: 250px;
+    text-align: right;
+}
+
+.event-link a,
+.activity-link a {
+    color: #660000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.event-link a:hover,
+.activity-link a:hover {
+    text-decoration: underline;
+}
+
+/* Add this specific selector for rates page room names */
+.rates-table .room-name h3 {
+    padding: 5px 0 0 0;
+    margin: 0;
+    color: #666633;  /* Olive green color */
+    font-family: erdana, Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+#sleeps {
+    color: #666;
+    font-size: .7em;
+    margin: 5px 0;  /* Reduce spacing between elements */
+}
+
+#floor-plan a {
+    color: #660000;  /* Dark red color */
+    font-size: .7em;
+    text-decoration: none;
+    margin-top: 5px;
+    display: block;
+}
+
+.loading-container {
+  min-height: 150px;
+  position: relative;
+}
+
+.booking-widget-placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  z-index: 1;
+}
+
+.loading-spinner {
+  width: 30px;
+  height: 30px;
+  border: 2px solid rgba(102, 102, 51, 0.1);
+  border-top: 2px solid #666633;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Hide placeholder when section.small appears (widget is loaded) */
+#widget_ad815720a36351950eda137a0c7b5d9e section.small ~ .booking-widget-placeholder {
+  display: none;
 }

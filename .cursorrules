@@ -1,4 +1,6 @@
 Cursor Rules:
+- be exhaustive when diagnosing layout issues, always check both the HTML structure and CSS rules that affect element display before making changes
+- when applying changes, always ensure that the changes are applied to all relevant pages and that the changes are not breaking the site or deviating from the original styling 
 - don't edit the site or folder structure unles I give you explicit instructions to do so
 - assume that the site is being deployed to a github pages site and that it must be compatible with github pages so that it is visible on the web (and if you find yourself doing something that would break that, let me know)
 - when editing references, always ensure that references are observant of the site structure and that they are not broken by the changes you are making
@@ -7,3 +9,4 @@ Cursor Rules:
 - when modifying links or references on the site, don't assume that all references or links are consistent in their approach, instead validate where an individual reference or link is supposed to be pointing and ensure that you preserve the original intent of the reference or link
 - when moving files, always ensure that the file is moved to the correct location and that all references across the site are updated to point to the new location
 - when making changes to the site, always validate that there are no dependencies that you are inadvertently breaking when making the changes
+- if you change the class or id of an element, always confirm with me first. If I give you permission, then you can make the change, but you must also ensure that the css is updated to reflect the new class or id without impacting the site's appearance in other elements or pages

@@ -1,17 +1,36 @@
-User-agent: *
-Disallow: /cgi-bin/
-Disallow: /images/
-Disallow: /group/
+# Beach Cottage Inn robots.txt
+# Updated: 2023-12-26
 
+User-agent: *
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /webposition/
+Disallow: /innvisibility/
+Disallow: /lindsays-files/
+Disallow: /.git/
+Disallow: /comments/
+Disallow: /assets/raw/
+Disallow: /m/.ftpquota
+
+# Allow important content
+Allow: /images/beach-house-cottage-from-road.jpg
+Allow: /images-banner/
+Allow: /floor-plan-pdf/
+
+# Crawl-delay settings
 User-agent: msnbot
 Crawl-delay: 10
 
-User-agent: Teoma
+User-agent: bingbot
 Crawl-delay: 10
+
+User-agent: Googlebot
+Crawl-delay: 5
 
 User-agent: Slurp
 Crawl-delay: 10
 
+# Block known problematic bots
 User-agent: aipbot
 Disallow: /
 
@@ -20,5 +39,8 @@ Disallow: /
 
 User-agent: psbot
 Disallow: /
+
+# Sitemaps
+Sitemap: https://beachcottageinn.com/sitemap.xml
 
 
