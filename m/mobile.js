@@ -26,9 +26,25 @@ document.addEventListener('DOMContentLoaded', function() {
         toggleMenu();
     });
 
-    // Close menu when clicking a link
+    // Track current page in navigation
+    const currentPath = window.location.pathname;
+    const currentPage = currentPath.split('/').pop() || 'index.html';
+    
+    // Get all navigation links
     const navLinks = mobileNav.getElementsByTagName('a');
     Array.from(navLinks).forEach(link => {
+        const href = link.getAttribute('href');
+        // Only process internal links (not external like Book Now)
+        if (href && !href.startsWith('http')) {
+            const linkPage = href.split('/').pop();
+            if (linkPage === currentPage) {
+                link.classList.add('active');
+                // Also add current-page class for consistency
+                link.classList.add('current-page');
+            }
+        }
+
+        // Add click handler to close menu
         link.addEventListener('click', function() {
             toggleMenu();
         });
@@ -68,16 +84,6 @@ document.addEventListener('DOMContentLoaded', function() {
     document.addEventListener('keydown', function(e) {
         if (e.key === 'Escape' && mobileNav.classList.contains('active')) {
             toggleMenu();
-        }
-    });
-
-    // Track current page in navigation
-    const currentPath = window.location.pathname;
-    const currentPage = currentPath.split('/').pop() || 'index.html';
-    
-    Array.from(navLinks).forEach(link => {
-        if (link.getAttribute('href') === currentPage) {
-            link.classList.add('active');
         }
     });
 

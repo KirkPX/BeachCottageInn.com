@@ -5,6 +5,7 @@
     --text-color: #333;
     --background-color: #f5f5f5;
     --min-touch-size: 44px;
+    --active-page-color: #ffebeb;  /* Light red color for active page */
 }
 
 * {
@@ -127,7 +128,24 @@ p {
 
 #mobile-nav a:hover,
 #mobile-nav a:active {
-    background-color: var(--secondary-color);
+    background-color: rgba(255,255,255,0.1);
+}
+
+/* Active/Current page styling */
+#mobile-nav a.active,
+#mobile-nav a.current-page {
+    background-color: rgba(255,255,255,0.15);
+    color: #ffebeb;
+    font-weight: bold;
+    border-left: 4px solid #ffebeb;
+    padding-left: 16px; /* 20px - 4px border */
+}
+
+#mobile-nav a.active:hover,
+#mobile-nav a.active:active,
+#mobile-nav a.current-page:hover,
+#mobile-nav a.current-page:active {
+    background-color: rgba(255,255,255,0.2);
 }
 
 #mobile-nav .book-now {
@@ -432,4 +450,16 @@ button[type="submit"]:hover {
     background: white;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#mobile-nav a.current-page {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--active-page-color);
+    font-weight: bold;
+    border-left: 4px solid var(--active-page-color);
+}
+
+#mobile-nav a.current-page:hover,
+#mobile-nav a.current-page:active {
+    background-color: rgba(255, 255, 255, 0.15);
 } 
